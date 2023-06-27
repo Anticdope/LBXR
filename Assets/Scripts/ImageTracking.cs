@@ -14,33 +14,63 @@ public class ImageTracking : MonoBehaviour
     // Declared array of prefabs
     public GameObject[] ArPrefabs;
 
-    private readonly Dictionary<string, GameObject> _instantiatePrefabs = new Dictionary<string, GameObject>
+    private readonly Dictionary<string, GameObject> _instantiatePrefabs = new Dictionary<string, GameObject>();
 
     // When is this called?
     // According to docs MonoBehavior.OnEnable() is called when the game object is
     // "enabled". Im not sure what enabled actually
-    // means and im also not sure when this particular gameobjectis enabled.
+    // means and im also not sure when this particular gameobject is enabled.
     void OnEnable() => m_TrackedImageManager.trackedImagesChanged += OnChanged;
 
     // When is this called?
     // When the object is disabled... same conundrum as above
     void OnDisable() => m_TrackedImageManager.trackedImagesChanged -= OnChanged;
 
+    //Called at the "start" (When the app runs)
+    void Start()
+    {
+        foreach (var prefab in ArPrefabs)
+        {
+            var instance = Instantiate(prefab);
+            instance.SetActive(false);
+            _instantiatePrefabs.Add(prefab.name, instance);
+        }
+    }
+
     void OnChanged(ARTrackedImagesChangedEventArgs eventArgs)
     {
         foreach (var newImage in eventArgs.added)
         {
-            //What happens when a new image is added?
+            // Instantiate a prefab when a new image is detected
+            if (_instantiatePrefabs.ContainsKey(newImage.referenceImage.name))
+            {
+                var prefab = _instantiatePrefabs[newImage.referenceImage.name];
+                prefab.SetActive(true);
+                prefab.transform.position = newImage.transform.position;
+                prefab.transform.rotation = newImage.transform.rotation;
+            }
         }
 
         foreach (var updatedImage in eventArgs.updated)
         {
-            // Handle updated event
+            // Update the prefab position and rotation when an existing image is updated
+            if (_instantiatePrefabs.ContainsKey(updatedImage.referenceImage.name))
+            {
+                var prefab = _instantiatePrefabs[updatedImage.referenceImage.name];
+                prefab.SetActive(updatedImage.trackingState == TrackingState.Tracking);
+                prefab.transform.position = updatedImage.transform.position;
+                prefab.transform.rotation = updatedImage.transform.rotation;
+            }
         }
 
         foreach (var removedImage in eventArgs.removed)
         {
-            // Handle removed event
+            // Disable the prefab when an image is removed
+            if (_instantiatePrefabs.ContainsKey(removedImage.referenceImage.name))
+            {
+                var prefab = _instantiatePrefabs[removedImage.referenceImage.name];
+                prefab.SetActive(false);
+            }
         }
     }
 }
