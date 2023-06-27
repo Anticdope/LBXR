@@ -545,7 +545,7 @@ MonoBehaviour:
   m_TrackedImageManager: {fileID: 223974230}
   ArPrefabs:
   - {fileID: 4175087052312024459, guid: 5f4f2fb456b4eff4aa1497648ea8ffc4, type: 3}
-  Text: {fileID: 0}
+  Text: {fileID: 2089110260}
 --- !u!4 &1114040582
 Transform:
   m_ObjectHideFlags: 0
