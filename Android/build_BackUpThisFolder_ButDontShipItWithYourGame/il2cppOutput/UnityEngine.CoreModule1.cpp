@@ -177,7 +177,6 @@ struct AddComponentMenu_t2CAC9731E6207441D8707972D8A021AC5DF78DF3;
 struct AppDomain_tFF7010567CBABAEEA7BB19835234D6485E16AD5F;
 struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263;
 struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129;
-struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F;
 struct AssemblyLoadEventHandler_t74AF5FF25F520B9786A20D862AE69BE733774A42;
 struct AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C;
 struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA;
@@ -292,7 +291,6 @@ struct Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F;
 struct Timer_t763C1D5F5A36087DC92C7DA4D1F8AB578F83AB00;
 struct TimerCallback_t7455CAFACC7054E62879920AFC84C5DA98B8C7CD;
 struct TooltipAttribute_tB6F5EBF52F73B533A70B7413D4A726D868B9733C;
-struct TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A;
 struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
 struct Type_t;
 struct TypeFilter_tD8F0A4CFBE6E8F8FA8D673113A73026EDA4640BA;
@@ -319,7 +317,6 @@ struct U3CU3Ec_tA5C2E4144EE7B61B812E4C964CBD023947FFFF4D;
 struct IStateMachineBox_tD4942DC2ED6681F5206C13363A829A111D7C9971;
 
 IL2CPP_EXTERN_C RuntimeClass* Action_1_tE8693FF0E67CDBA52BAFB211BFF1844D076ABAFB_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var;
@@ -350,7 +347,6 @@ IL2CPP_EXTERN_C RuntimeClass* Func_2_t5D51F6431829ECE65F21B86CCE9ADC804041865E_i
 IL2CPP_EXTERN_C RuntimeClass* Func_2_t77AF745C0F9B082CCA8A895BCF11881A4E488892_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Func_2_tE49E41274E2267948BC19F98E295B373CB5A9610_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Func_2_tFC47A2A4C1BC7214B5B8A7D107141A940E117DAE_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Guid_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* HashCode_t9CF0E862CF73DB9FE67D8DBBD1F4C46330F88AE3_il2cpp_TypeInfo_var;
@@ -392,8 +388,6 @@ IL2CPP_EXTERN_C RuntimeClass* StringComparer_t6268F19CA34879176651429C0D8A3D0002
 IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TextureFormat_t87A73E4A3850D3410DC211676FC14B94226C1C1D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TooltipAttribute_tB6F5EBF52F73B533A70B7413D4A726D868B9733C_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* TouchScreenKeyboardType_t3F5A06315B263282460BE67DE01393B6FB3780C1_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass2_0_tE128E3E434C8083053250719834707D81D72E8B7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t7EDF68F6156B11EB0CCA9AD9C264935AAA8DBD1F_il2cpp_TypeInfo_var;
@@ -424,10 +418,8 @@ IL2CPP_EXTERN_C String_t* _stringLiteral3D867D549331FF350C2A5DBB625FD2142F4DBB84
 IL2CPP_EXTERN_C String_t* _stringLiteral3F3FD3EFA55E39E450A9A4CE66CD7B259403D44E;
 IL2CPP_EXTERN_C String_t* _stringLiteral4379B0249B80A34ABC2748B5F0D030FD7D4E007C;
 IL2CPP_EXTERN_C String_t* _stringLiteral4DA40F86FA6B66D1B6831F82ADF65BBE193ABB05;
-IL2CPP_EXTERN_C String_t* _stringLiteral4FEEB8D75A2FD285E0FC86F7E4104FA3A7AA777D;
 IL2CPP_EXTERN_C String_t* _stringLiteral5143D1EC410A39BEE3482C2EEAB1E4C2A1C5A2DD;
 IL2CPP_EXTERN_C String_t* _stringLiteral537DC478F57E765ABB71C8854958007E241C0842;
-IL2CPP_EXTERN_C String_t* _stringLiteral55AA1B195D5120564E8695CBFB7EA94B52F7EC06;
 IL2CPP_EXTERN_C String_t* _stringLiteral6C379854BE64F495042DF2C26D73DBF30568882D;
 IL2CPP_EXTERN_C String_t* _stringLiteral6C5C0435D770C34838B418825A7DF4290867564D;
 IL2CPP_EXTERN_C String_t* _stringLiteral6DD19C8ED6DBF87C907931E9ED1B787A690E2AAF;
@@ -555,7 +547,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* SystemInfo_SupportsRenderTextureFormat_mCCC
 IL2CPP_EXTERN_C const RuntimeMethod* SystemInfo_SupportsTextureFormat_m833B0ABED13B5B8D0D4BCF082F3EFA51A3B5C860_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ThreadSafeObjectPool_1_Release_m2BEBCDD0642868CD1E22ED03EB7C3A5964D791FE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ThreadSafeObjectPool_1__ctor_mFE4E05B9580132C11C63401980E62B3B8E94B346_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TouchScreenKeyboard_set_selection_mC27C2948118086822A151118C379FAAF692DB2DF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CGetCachedEnumDataU3Eb__2_1_mFABC2F08601EDC5AB10DC6CBCD6870A533C78DF9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CGetCachedEnumDataU3Eb__2_2_m8D831A7EFA8414C67A47371867AA72BE854E81D5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CGetCachedEnumDataU3Eb__2_3_mFF89FAEBB1E42BD08E9A554D3BD8B5E8D0B58B5C_RuntimeMethod_var;
@@ -929,6 +920,9 @@ struct PlayerConnectionInternal_tCF794B96149B0D299C2E6F0CA4F2E94E35782BC9  : pub
 struct PropertyNameUtils_tD0E35B847C729B390FCAF66773BE1562A40D8CE5  : public RuntimeObject
 {
 };
+struct Random_tB04D5698DD305E21B04068E37738200CC59BF85A  : public RuntimeObject
+{
+};
 struct Resources_t4745F52065DB80D8880840AEDC45965DE35128E1  : public RuntimeObject
 {
 };
@@ -1034,9 +1028,6 @@ struct SynchronizationContext_tCDB842BBE53B050802CBBB59C6E6DC45B5B06DC0  : publi
 	int32_t ____props_0;
 };
 struct SystemInfo_t7030C23EFD82ED40B819842D95077874903D51F4  : public RuntimeObject
-{
-};
-struct Time_t5D177897BAE15375F3FDC18D602D9D0075C1EE93  : public RuntimeObject
 {
 };
 struct UnhandledExceptionHandler_t6B66FAF89251974D972A5BDF3D12EA8C2B5FE7F7  : public RuntimeObject
@@ -1512,15 +1503,6 @@ struct Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F  : public CriticalFinali
 	bool ___m_ExecutionContextBelongsToOuterScope_12;
 	RuntimeObject* ___principal_13;
 	int32_t ___principal_version_14;
-};
-struct TouchScreenKeyboard_InternalConstructorHelperArguments_t5E8A354E21261B094E5F328959B2876EEB437EE1 
-{
-	uint32_t ___keyboardType_0;
-	uint32_t ___autocorrection_1;
-	uint32_t ___multiline_2;
-	uint32_t ___secure_3;
-	uint32_t ___alert_4;
-	int32_t ___characterLimit_5;
 };
 struct UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455 
 {
@@ -2046,10 +2028,6 @@ struct TextAreaAttribute_t2C56704D307A957546BF9C65AB19AF49FA93ED39  : public Pro
 struct TooltipAttribute_tB6F5EBF52F73B533A70B7413D4A726D868B9733C  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
 {
 	String_t* ___tooltip_0;
-};
-struct TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A  : public RuntimeObject
-{
-	intptr_t ___m_Ptr_0;
 };
 struct TrackedReference_tF35FF4FB6E89ACD81C24469FAF0CA6FFF29262A2  : public RuntimeObject
 {
@@ -2603,10 +2581,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 struct StreamWriter_t6E7DF7D524AA3C018A65F62EE80779873ED4D1E4_StaticFields
 {
 	StreamWriter_t6E7DF7D524AA3C018A65F62EE80779873ED4D1E4* ___Null_6;
-};
-struct TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A_StaticFields
-{
-	bool ___U3CdisableInPlaceEditingU3Ek__BackingField_1;
 };
 struct WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8_StaticFields
 {
@@ -3406,6 +3380,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Matrix4x4_GetLossyScale_Injected_mABC36B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Matrix4x4_GetLossyScale_m3C19D2C6746BB211C8CB02478A60EB2D71D10FC7 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Matrix4x4_get_lossyScale_mFB3D4CF6408D710D607CA1D2AF94B2E4E0B57EB7 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Matrix4x4_TRS_Injected_m5EF976A6FBB27DD3E44C0B51575EBEEF802EB6F1 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_pos, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___1_q, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___2_s, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___3_ret, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_pos, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_q, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_s, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Matrix4x4_SetTRS_m8002A569FE81574DABE86044C8FF6F7C44DA21AA (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_pos, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_q, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_s, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Matrix4x4_Inverse3DAffine_Injected_mA108B0432274BE970746A528E27849AA6BD3EF05 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___0_input, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___1_result, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Matrix4x4_Inverse_Injected_m666E1049EA37568CCC0C3636194F8A815E30DF66 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___0_m, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___1_ret, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 Matrix4x4_Inverse_mFB2503F5D5FE76E7C56249700ED2E43DDA0F1939 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___0_m, const RuntimeMethod* method) ;
@@ -3600,6 +3576,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PropertyName_Equals_mFD87005C352B7BEB427
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PropertyName_op_Equality_m86CFB3121BF5927D1D4D425A8272980CAAB73DAC (PropertyName_tE4B4AAA58AF3BF2C0CD95509EB7B786F096901C2 ___0_lhs, PropertyName_tE4B4AAA58AF3BF2C0CD95509EB7B786F096901C2 ___1_rhs, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___0_format, RuntimeObject* ___1_arg0, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PropertyName_ToString_mDE271855F7B9A516185A66E12D90FE6B6C9DF6C0 (PropertyName_tE4B4AAA58AF3BF2C0CD95509EB7B786F096901C2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Random_RandomRangeInt_mB4B20C7368BBE6060007CB759C4C54B43BA29A37 (int32_t ___0_minInclusive, int32_t ___1_maxExclusive, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ResourcesAPI_tDD1769E5695358FB56E4E0FA44A9E25900662A95* ResourcesAPI_get_overrideAPI_m2D010C9668878DA21ED92CADE587528848BB98E9_inline (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* ResourcesAPIInternal_FindObjectsOfTypeAll_m7432D13EB6FC95F6C05070D6F215964B29E7E2C9 (Type_t* ___0_type, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ResourcesAPIInternal_FindShaderByName_mAD5ED1470F0DE9CE9A95145187281879AE61B56D (String_t* ___0_name, const RuntimeMethod* method) ;
@@ -4094,21 +4071,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SystemInfo_HasRenderTextureNative_m5D693
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SystemInfo_SupportsTextureFormatNative_m47D5DEAD487F9046B4F77B8E9D880D97DD59ACEB (int32_t ___0_format, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_GetMaxTextureSize_m69CD656F42B72D3E49A923F174C701712B9C94EC (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_GetMaxRenderTextureSize_mFDD81060C8E82A4D1F567BE54DB81EC3CC529115 (const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchScreenKeyboard_Internal_Destroy_m83A7EDD06362B64AF552170085E3598D31625F70 (intptr_t ___0_ptr, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GC_SuppressFinalize_m71815DBD5A0CD2EA1BE43317B08B7A14949EDC65 (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchScreenKeyboard_Destroy_m8B3C649CE02C77170A0F41D8EEF6E7465F8B9CAD (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Convert_ToUInt32_m43E1714EE10A586A708C133F3302844B7FF2E350 (RuntimeObject* ___0_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Convert_ToUInt32_m4B48C6526BA290E3D8C7BF687A7B69B0ACA6EE06 (bool ___0_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TouchScreenKeyboard_TouchScreenKeyboard_InternalConstructorHelper_m14B4B7D80E368896C0CC49EA76D2B3208DC7D0F1 (TouchScreenKeyboard_InternalConstructorHelperArguments_t5E8A354E21261B094E5F328959B2876EEB437EE1* ___0_arguments, String_t* ___1_text, String_t* ___2_textPlaceholder, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138 (const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TouchScreenKeyboard_get_disableInPlaceEditing_m063C253E629D35E9C1DEC911EA785AA796D35252_inline (const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TouchScreenKeyboard_IsInPlaceEditingAllowed_m457215121F1DEBEEE4D9665358C13F7E3D041AE7 (const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchScreenKeyboard__ctor_mA0C6FA07182A13B8F3F62731B94CAAD83F340861 (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* __this, String_t* ___0_text, int32_t ___1_keyboardType, bool ___2_autocorrection, bool ___3_multiline, bool ___4_secure, bool ___5_alert, String_t* ___6_textPlaceholder, int32_t ___7_characterLimit, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* TouchScreenKeyboard_Open_m2E1E3A71919EE30C51539DF8A037B74BE2D78065 (String_t* ___0_text, int32_t ___1_keyboardType, bool ___2_autocorrection, bool ___3_multiline, bool ___4_secure, bool ___5_alert, String_t* ___6_textPlaceholder, int32_t ___7_characterLimit, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchScreenKeyboard_GetSelection_mFE603E50B5D189F96A3E3D93FA5F70E7B2DA9C5A (int32_t* ___0_start, int32_t* ___1_length, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TouchScreenKeyboard_get_text_m74593E81B017446204A9DB1F7359922A2C005B1E (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentOutOfRangeException__ctor_mE5B2755F0BEA043CACF915D5CE140859EE58FA66 (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* __this, String_t* ___0_paramName, String_t* ___1_message, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchScreenKeyboard_SetSelection_m589290680988DFA5FBABA7336F58907C62D182DA (int32_t ___0_start, int32_t ___1_length, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t BitConverter_DoubleToInt64Bits_m4F42741818550F9956B5FBAF88C051F4DE5B0AE6_inline (double ___0_value, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t* Array_GetRawSzArrayData_m2F8F5B2A381AEF971F12866D9C0A6C4FBA59F6BB_inline (RuntimeArray* __this, const RuntimeMethod* method) ;
 inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method)
@@ -4789,6 +4751,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_0 = V_0;
 		return L_0;
 	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Matrix4x4_SetTRS_m8002A569FE81574DABE86044C8FF6F7C44DA21AA (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_pos, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_q, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_s, const RuntimeMethod* method) 
+{
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_pos;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = ___1_q;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___2_s;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_3;
+		L_3 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3(L_0, L_1, L_2, NULL);
+		*(Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6*)__this = L_3;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void Matrix4x4_SetTRS_m8002A569FE81574DABE86044C8FF6F7C44DA21AA_AdjustorThunk (RuntimeObject* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_pos, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_q, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_s, const RuntimeMethod* method)
+{
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6*>(__this + _offset);
+	Matrix4x4_SetTRS_m8002A569FE81574DABE86044C8FF6F7C44DA21AA(_thisAdjusted, ___0_pos, ___1_q, ___2_s, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Matrix4x4_Inverse3DAffine_m7A7796EE699A2228A709611D11364541DE768AE6 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___0_input, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___1_result, const RuntimeMethod* method) 
 {
@@ -10651,6 +10632,34 @@ IL_000b:
 		return L_4;
 	}
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Mathf_SmoothStep_mEFDC738EB0AA162D71013BDBBDD157B080A8E524 (float ___0_from, float ___1_to, float ___2_t, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = ___2_t;
+		float L_1;
+		L_1 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_0, NULL);
+		___2_t = L_1;
+		float L_2 = ___2_t;
+		float L_3 = ___2_t;
+		float L_4 = ___2_t;
+		float L_5 = ___2_t;
+		float L_6 = ___2_t;
+		___2_t = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply((-2.0f), L_2)), L_3)), L_4)), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply((3.0f), L_5)), L_6))));
+		float L_7 = ___1_to;
+		float L_8 = ___2_t;
+		float L_9 = ___0_from;
+		float L_10 = ___2_t;
+		V_0 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_7, L_8)), ((float)il2cpp_codegen_multiply(L_9, ((float)il2cpp_codegen_subtract((1.0f), L_10))))));
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		float L_11 = V_0;
+		return L_11;
+	}
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Mathf_Approximately_m1DADD012A8FC82E11FB282501AE2EBBF9A77150B (float ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
 	if (!il2cpp_codegen_runtime_metadata_is_initialized((uintptr_t*)Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_il2cpp_TypeInfo_var))
@@ -14002,6 +14011,36 @@ IL_0009:
 		return L_1;
 	}
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Vector4_op_Multiply_m02FE150FD7366546FC19A36B6928512376BF64E8 (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___0_a, float ___1_d, const RuntimeMethod* method) 
+{
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_0 = ___0_a;
+		float L_1 = L_0.___x_1;
+		float L_2 = ___1_d;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_3 = ___0_a;
+		float L_4 = L_3.___y_2;
+		float L_5 = ___1_d;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_6 = ___0_a;
+		float L_7 = L_6.___z_3;
+		float L_8 = ___1_d;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_9 = ___0_a;
+		float L_10 = L_9.___w_4;
+		float L_11 = ___1_d;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_12), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), ((float)il2cpp_codegen_multiply(L_7, L_8)), ((float)il2cpp_codegen_multiply(L_10, L_11)), NULL);
+		V_0 = L_12;
+		goto IL_0029;
+	}
+
+IL_0029:
+	{
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_13 = V_0;
+		return L_13;
+	}
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Vector4_op_Division_m9B1B8692D50C864CFA585BDF97FB6FBC18967D90 (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
 	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_0;
@@ -15424,6 +15463,50 @@ IL2CPP_EXTERN_C  String_t* PropertyName_ToString_mDE271855F7B9A516185A66E12D90FE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494 (float ___0_minInclusive, float ___1_maxInclusive, const RuntimeMethod* method) 
+{
+	typedef float (*Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494_ftn) (float, float);
+	static Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Random::Range(System.Single,System.Single)");
+	float icallRetVal = _il2cpp_icall_func(___0_minInclusive, ___1_maxInclusive);
+	return icallRetVal;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68 (int32_t ___0_minInclusive, int32_t ___1_maxExclusive, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = ___0_minInclusive;
+		int32_t L_1 = ___1_maxExclusive;
+		int32_t L_2;
+		L_2 = Random_RandomRangeInt_mB4B20C7368BBE6060007CB759C4C54B43BA29A37(L_0, L_1, NULL);
+		V_0 = L_2;
+		goto IL_000b;
+	}
+
+IL_000b:
+	{
+		int32_t L_3 = V_0;
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Random_RandomRangeInt_mB4B20C7368BBE6060007CB759C4C54B43BA29A37 (int32_t ___0_minInclusive, int32_t ___1_maxExclusive, const RuntimeMethod* method) 
+{
+	typedef int32_t (*Random_RandomRangeInt_mB4B20C7368BBE6060007CB759C4C54B43BA29A37_ftn) (int32_t, int32_t);
+	static Random_RandomRangeInt_mB4B20C7368BBE6060007CB759C4C54B43BA29A37_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Random_RandomRangeInt_mB4B20C7368BBE6060007CB759C4C54B43BA29A37_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Random::RandomRangeInt(System.Int32,System.Int32)");
+	int32_t icallRetVal = _il2cpp_icall_func(___0_minInclusive, ___1_maxExclusive);
+	return icallRetVal;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C void ResourceRequest_tE6953FBA45EAAEFE866C635B9E7852044E62D868_marshal_pinvoke(const ResourceRequest_tE6953FBA45EAAEFE866C635B9E7852044E62D868& unmarshaled, ResourceRequest_tE6953FBA45EAAEFE866C635B9E7852044E62D868_marshaled_pinvoke& marshaled)
 {
 	Exception_t* ___m_Type_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Type' of type 'ResourceRequest': Reference type field marshaling is not supported.");
@@ -16489,6 +16572,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequireComponent__ctor_mB1C4FD7EA20C0ADA
 		Type_t* L_0 = ___0_requiredComponent;
 		__this->___m_Type0_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Type0_0), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequireComponent__ctor_mB589C6197411F3187E219DC3370165E5B6EBE35E (RequireComponent_t8DDD209443A8519033BD1B38803A47077D2A1138* __this, Type_t* ___0_requiredComponent, Type_t* ___1_requiredComponent2, const RuntimeMethod* method) 
+{
+	{
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		Type_t* L_0 = ___0_requiredComponent;
+		__this->___m_Type0_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Type0_0), (void*)L_0);
+		Type_t* L_1 = ___1_requiredComponent2;
+		__this->___m_Type1_1 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Type1_1), (void*)L_1);
 		return;
 	}
 }
@@ -26909,644 +27005,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_GetGraphicsFormat_mF4A09D3
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B (const RuntimeMethod* method) 
-{
-	typedef float (*Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B_ftn) ();
-	static Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Time::get_time()");
-	float icallRetVal = _il2cpp_icall_func();
-	return icallRetVal;
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) 
-{
-	typedef float (*Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865_ftn) ();
-	static Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Time::get_deltaTime()");
-	float icallRetVal = _il2cpp_icall_func();
-	return icallRetVal;
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_unscaledTime_mAF4040B858903E1325D1C65B8BF1AC61460B2503 (const RuntimeMethod* method) 
-{
-	typedef float (*Time_get_unscaledTime_mAF4040B858903E1325D1C65B8BF1AC61460B2503_ftn) ();
-	static Time_get_unscaledTime_mAF4040B858903E1325D1C65B8BF1AC61460B2503_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Time_get_unscaledTime_mAF4040B858903E1325D1C65B8BF1AC61460B2503_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Time::get_unscaledTime()");
-	float icallRetVal = _il2cpp_icall_func();
-	return icallRetVal;
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_fixedUnscaledTime_m408E1B883AE5D5D1469E6036F8A4B4822A6E9B37 (const RuntimeMethod* method) 
-{
-	typedef float (*Time_get_fixedUnscaledTime_m408E1B883AE5D5D1469E6036F8A4B4822A6E9B37_ftn) ();
-	static Time_get_fixedUnscaledTime_m408E1B883AE5D5D1469E6036F8A4B4822A6E9B37_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Time_get_fixedUnscaledTime_m408E1B883AE5D5D1469E6036F8A4B4822A6E9B37_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Time::get_fixedUnscaledTime()");
-	float icallRetVal = _il2cpp_icall_func();
-	return icallRetVal;
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_unscaledDeltaTime_mF057EECA857E5C0F90A3F910D26D3EE59F27C4B5 (const RuntimeMethod* method) 
-{
-	typedef float (*Time_get_unscaledDeltaTime_mF057EECA857E5C0F90A3F910D26D3EE59F27C4B5_ftn) ();
-	static Time_get_unscaledDeltaTime_mF057EECA857E5C0F90A3F910D26D3EE59F27C4B5_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Time_get_unscaledDeltaTime_mF057EECA857E5C0F90A3F910D26D3EE59F27C4B5_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Time::get_unscaledDeltaTime()");
-	float icallRetVal = _il2cpp_icall_func();
-	return icallRetVal;
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667 (const RuntimeMethod* method) 
-{
-	typedef int32_t (*Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667_ftn) ();
-	static Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Time::get_frameCount()");
-	int32_t icallRetVal = _il2cpp_icall_func();
-	return icallRetVal;
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510 (const RuntimeMethod* method) 
-{
-	typedef float (*Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510_ftn) ();
-	static Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Time::get_realtimeSinceStartup()");
-	float icallRetVal = _il2cpp_icall_func();
-	return icallRetVal;
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchScreenKeyboard_Internal_Destroy_m83A7EDD06362B64AF552170085E3598D31625F70 (intptr_t ___0_ptr, const RuntimeMethod* method) 
-{
-	typedef void (*TouchScreenKeyboard_Internal_Destroy_m83A7EDD06362B64AF552170085E3598D31625F70_ftn) (intptr_t);
-	static TouchScreenKeyboard_Internal_Destroy_m83A7EDD06362B64AF552170085E3598D31625F70_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TouchScreenKeyboard_Internal_Destroy_m83A7EDD06362B64AF552170085E3598D31625F70_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TouchScreenKeyboard::Internal_Destroy(System.IntPtr)");
-	_il2cpp_icall_func(___0_ptr);
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchScreenKeyboard_Destroy_m8B3C649CE02C77170A0F41D8EEF6E7465F8B9CAD (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* __this, const RuntimeMethod* method) 
-{
-	if (!il2cpp_codegen_runtime_metadata_is_initialized((uintptr_t*)GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var))
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
-	}
-	bool V_0 = false;
-	{
-		intptr_t L_0 = __this->___m_Ptr_0;
-		bool L_1;
-		L_1 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_0, 0, NULL);
-		V_0 = L_1;
-		bool L_2 = V_0;
-		if (!L_2)
-		{
-			goto IL_002e;
-		}
-	}
-	{
-		intptr_t L_3 = __this->___m_Ptr_0;
-		TouchScreenKeyboard_Internal_Destroy_m83A7EDD06362B64AF552170085E3598D31625F70(L_3, NULL);
-		__this->___m_Ptr_0 = 0;
-	}
-
-IL_002e:
-	{
-		il2cpp_codegen_runtime_class_init_inline(GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
-		GC_SuppressFinalize_m71815DBD5A0CD2EA1BE43317B08B7A14949EDC65(__this, NULL);
-		return;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchScreenKeyboard_Finalize_mCAFC1635D50B4AF9EEBFB0A5DC1D5027A2FEAA6B (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* __this, const RuntimeMethod* method) 
-{
-	{
-	}
-	{
-		auto __finallyBlock = il2cpp::utils::Finally([&]
-		{
-
-FINALLY_000b:
-			{
-				Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2(__this, NULL);
-				return;
-			}
-		});
-		try
-		{
-			TouchScreenKeyboard_Destroy_m8B3C649CE02C77170A0F41D8EEF6E7465F8B9CAD(__this, NULL);
-			goto IL_0013;
-		}
-		catch(Il2CppExceptionWrapper& e)
-		{
-			__finallyBlock.StoreException(e.ex);
-		}
-	}
-
-IL_0013:
-	{
-		return;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchScreenKeyboard__ctor_mA0C6FA07182A13B8F3F62731B94CAAD83F340861 (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* __this, String_t* ___0_text, int32_t ___1_keyboardType, bool ___2_autocorrection, bool ___3_multiline, bool ___4_secure, bool ___5_alert, String_t* ___6_textPlaceholder, int32_t ___7_characterLimit, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TouchScreenKeyboardType_t3F5A06315B263282460BE67DE01393B6FB3780C1_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	TouchScreenKeyboard_InternalConstructorHelperArguments_t5E8A354E21261B094E5F328959B2876EEB437EE1 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		il2cpp_codegen_initobj((&V_0), sizeof(TouchScreenKeyboard_InternalConstructorHelperArguments_t5E8A354E21261B094E5F328959B2876EEB437EE1));
-		int32_t L_0 = ___1_keyboardType;
-		int32_t L_1 = L_0;
-		RuntimeObject* L_2 = Box(TouchScreenKeyboardType_t3F5A06315B263282460BE67DE01393B6FB3780C1_il2cpp_TypeInfo_var, &L_1);
-		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
-		uint32_t L_3;
-		L_3 = Convert_ToUInt32_m43E1714EE10A586A708C133F3302844B7FF2E350(L_2, NULL);
-		(&V_0)->___keyboardType_0 = L_3;
-		bool L_4 = ___2_autocorrection;
-		uint32_t L_5;
-		L_5 = Convert_ToUInt32_m4B48C6526BA290E3D8C7BF687A7B69B0ACA6EE06(L_4, NULL);
-		(&V_0)->___autocorrection_1 = L_5;
-		bool L_6 = ___3_multiline;
-		uint32_t L_7;
-		L_7 = Convert_ToUInt32_m4B48C6526BA290E3D8C7BF687A7B69B0ACA6EE06(L_6, NULL);
-		(&V_0)->___multiline_2 = L_7;
-		bool L_8 = ___4_secure;
-		uint32_t L_9;
-		L_9 = Convert_ToUInt32_m4B48C6526BA290E3D8C7BF687A7B69B0ACA6EE06(L_8, NULL);
-		(&V_0)->___secure_3 = L_9;
-		bool L_10 = ___5_alert;
-		uint32_t L_11;
-		L_11 = Convert_ToUInt32_m4B48C6526BA290E3D8C7BF687A7B69B0ACA6EE06(L_10, NULL);
-		(&V_0)->___alert_4 = L_11;
-		int32_t L_12 = ___7_characterLimit;
-		(&V_0)->___characterLimit_5 = L_12;
-		String_t* L_13 = ___0_text;
-		String_t* L_14 = ___6_textPlaceholder;
-		intptr_t L_15;
-		L_15 = TouchScreenKeyboard_TouchScreenKeyboard_InternalConstructorHelper_m14B4B7D80E368896C0CC49EA76D2B3208DC7D0F1((&V_0), L_13, L_14, NULL);
-		__this->___m_Ptr_0 = L_15;
-		return;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TouchScreenKeyboard_TouchScreenKeyboard_InternalConstructorHelper_m14B4B7D80E368896C0CC49EA76D2B3208DC7D0F1 (TouchScreenKeyboard_InternalConstructorHelperArguments_t5E8A354E21261B094E5F328959B2876EEB437EE1* ___0_arguments, String_t* ___1_text, String_t* ___2_textPlaceholder, const RuntimeMethod* method) 
-{
-	typedef intptr_t (*TouchScreenKeyboard_TouchScreenKeyboard_InternalConstructorHelper_m14B4B7D80E368896C0CC49EA76D2B3208DC7D0F1_ftn) (TouchScreenKeyboard_InternalConstructorHelperArguments_t5E8A354E21261B094E5F328959B2876EEB437EE1*, String_t*, String_t*);
-	static TouchScreenKeyboard_TouchScreenKeyboard_InternalConstructorHelper_m14B4B7D80E368896C0CC49EA76D2B3208DC7D0F1_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TouchScreenKeyboard_TouchScreenKeyboard_InternalConstructorHelper_m14B4B7D80E368896C0CC49EA76D2B3208DC7D0F1_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TouchScreenKeyboard::TouchScreenKeyboard_InternalConstructorHelper(UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments&,System.String,System.String)");
-	intptr_t icallRetVal = _il2cpp_icall_func(___0_arguments, ___1_text, ___2_textPlaceholder);
-	return icallRetVal;
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TouchScreenKeyboard_get_isSupported_mCFAC95CA6CAA06B4E21F42E3C40A39668D6B438E (const RuntimeMethod* method) 
-{
-	if (!il2cpp_codegen_runtime_metadata_is_initialized((uintptr_t*)Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var))
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
-	}
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	{
-		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
-		int32_t L_0;
-		L_0 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
-		V_0 = L_0;
-		int32_t L_1 = V_0;
-		V_2 = L_1;
-		int32_t L_2 = V_2;
-		V_1 = L_2;
-		int32_t L_3 = V_1;
-		if ((((int32_t)L_3) > ((int32_t)((int32_t)11))))
-		{
-			goto IL_001d;
-		}
-	}
-	{
-		int32_t L_4 = V_1;
-		if ((((int32_t)L_4) == ((int32_t)8)))
-		{
-			goto IL_0058;
-		}
-	}
-	{
-		goto IL_0016;
-	}
-
-IL_0016:
-	{
-		int32_t L_5 = V_1;
-		if ((((int32_t)L_5) == ((int32_t)((int32_t)11))))
-		{
-			goto IL_0058;
-		}
-	}
-	{
-		goto IL_005c;
-	}
-
-IL_001d:
-	{
-		int32_t L_6 = V_1;
-		if ((!(((uint32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_6, ((int32_t)17)))) > ((uint32_t)3))))
-		{
-			goto IL_0058;
-		}
-	}
-	{
-		goto IL_0026;
-	}
-
-IL_0026:
-	{
-		int32_t L_7 = V_1;
-		if ((((int32_t)L_7) == ((int32_t)((int32_t)25))))
-		{
-			goto IL_0058;
-		}
-	}
-	{
-		goto IL_002d;
-	}
-
-IL_002d:
-	{
-		int32_t L_8 = V_1;
-		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_8, ((int32_t)31))))
-		{
-			case 0:
-			{
-				goto IL_0058;
-			}
-			case 1:
-			{
-				goto IL_0058;
-			}
-			case 2:
-			{
-				goto IL_005c;
-			}
-			case 3:
-			{
-				goto IL_0058;
-			}
-			case 4:
-			{
-				goto IL_005c;
-			}
-			case 5:
-			{
-				goto IL_0058;
-			}
-			case 6:
-			{
-				goto IL_0058;
-			}
-			case 7:
-			{
-				goto IL_0058;
-			}
-		}
-	}
-	{
-		goto IL_005c;
-	}
-
-IL_0058:
-	{
-		V_3 = (bool)1;
-		goto IL_0060;
-	}
-
-IL_005c:
-	{
-		V_3 = (bool)0;
-		goto IL_0060;
-	}
-
-IL_0060:
-	{
-		bool L_9 = V_3;
-		return L_9;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TouchScreenKeyboard_get_disableInPlaceEditing_m063C253E629D35E9C1DEC911EA785AA796D35252 (const RuntimeMethod* method) 
-{
-	if (!il2cpp_codegen_runtime_metadata_is_initialized((uintptr_t*)TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A_il2cpp_TypeInfo_var))
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A_il2cpp_TypeInfo_var);
-	}
-	{
-		bool L_0 = ((TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A_StaticFields*)il2cpp_codegen_static_fields_for(TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A_il2cpp_TypeInfo_var))->___U3CdisableInPlaceEditingU3Ek__BackingField_1;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TouchScreenKeyboard_get_isInPlaceEditingAllowed_mE57CDF32437DD1DCDC665072457C91DD31EB93D0 (const RuntimeMethod* method) 
-{
-	bool V_0 = false;
-	bool V_1 = false;
-	{
-		bool L_0;
-		L_0 = TouchScreenKeyboard_get_disableInPlaceEditing_m063C253E629D35E9C1DEC911EA785AA796D35252_inline(NULL);
-		V_0 = L_0;
-		bool L_1 = V_0;
-		if (!L_1)
-		{
-			goto IL_000e;
-		}
-	}
-	{
-		V_1 = (bool)0;
-		goto IL_0016;
-	}
-
-IL_000e:
-	{
-		bool L_2;
-		L_2 = TouchScreenKeyboard_IsInPlaceEditingAllowed_m457215121F1DEBEEE4D9665358C13F7E3D041AE7(NULL);
-		V_1 = L_2;
-		goto IL_0016;
-	}
-
-IL_0016:
-	{
-		bool L_3 = V_1;
-		return L_3;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TouchScreenKeyboard_IsInPlaceEditingAllowed_m457215121F1DEBEEE4D9665358C13F7E3D041AE7 (const RuntimeMethod* method) 
-{
-	typedef bool (*TouchScreenKeyboard_IsInPlaceEditingAllowed_m457215121F1DEBEEE4D9665358C13F7E3D041AE7_ftn) ();
-	static TouchScreenKeyboard_IsInPlaceEditingAllowed_m457215121F1DEBEEE4D9665358C13F7E3D041AE7_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TouchScreenKeyboard_IsInPlaceEditingAllowed_m457215121F1DEBEEE4D9665358C13F7E3D041AE7_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TouchScreenKeyboard::IsInPlaceEditingAllowed()");
-	bool icallRetVal = _il2cpp_icall_func();
-	return icallRetVal;
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* TouchScreenKeyboard_Open_m2E1E3A71919EE30C51539DF8A037B74BE2D78065 (String_t* ___0_text, int32_t ___1_keyboardType, bool ___2_autocorrection, bool ___3_multiline, bool ___4_secure, bool ___5_alert, String_t* ___6_textPlaceholder, int32_t ___7_characterLimit, const RuntimeMethod* method) 
-{
-	if (!il2cpp_codegen_runtime_metadata_is_initialized((uintptr_t*)TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A_il2cpp_TypeInfo_var))
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A_il2cpp_TypeInfo_var);
-	}
-	TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* V_0 = NULL;
-	{
-		String_t* L_0 = ___0_text;
-		int32_t L_1 = ___1_keyboardType;
-		bool L_2 = ___2_autocorrection;
-		bool L_3 = ___3_multiline;
-		bool L_4 = ___4_secure;
-		bool L_5 = ___5_alert;
-		String_t* L_6 = ___6_textPlaceholder;
-		int32_t L_7 = ___7_characterLimit;
-		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_8 = (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A*)il2cpp_codegen_object_new(TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A_il2cpp_TypeInfo_var);
-		TouchScreenKeyboard__ctor_mA0C6FA07182A13B8F3F62731B94CAAD83F340861(L_8, L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, NULL);
-		V_0 = L_8;
-		goto IL_0015;
-	}
-
-IL_0015:
-	{
-		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_9 = V_0;
-		return L_9;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* TouchScreenKeyboard_Open_mE24AE590A477F9D027537FD170B1DC02627C4D7E (String_t* ___0_text, int32_t ___1_keyboardType, bool ___2_autocorrection, bool ___3_multiline, bool ___4_secure, const RuntimeMethod* method) 
-{
-	if (!il2cpp_codegen_runtime_metadata_is_initialized((uintptr_t*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709))
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-	}
-	int32_t V_0 = 0;
-	String_t* V_1 = NULL;
-	bool V_2 = false;
-	TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* V_3 = NULL;
-	{
-		V_0 = 0;
-		V_1 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
-		V_2 = (bool)0;
-		String_t* L_0 = ___0_text;
-		int32_t L_1 = ___1_keyboardType;
-		bool L_2 = ___2_autocorrection;
-		bool L_3 = ___3_multiline;
-		bool L_4 = ___4_secure;
-		bool L_5 = V_2;
-		String_t* L_6 = V_1;
-		int32_t L_7 = V_0;
-		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_8;
-		L_8 = TouchScreenKeyboard_Open_m2E1E3A71919EE30C51539DF8A037B74BE2D78065(L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, NULL);
-		V_3 = L_8;
-		goto IL_001c;
-	}
-
-IL_001c:
-	{
-		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_9 = V_3;
-		return L_9;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TouchScreenKeyboard_get_text_m74593E81B017446204A9DB1F7359922A2C005B1E (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* __this, const RuntimeMethod* method) 
-{
-	typedef String_t* (*TouchScreenKeyboard_get_text_m74593E81B017446204A9DB1F7359922A2C005B1E_ftn) (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A*);
-	static TouchScreenKeyboard_get_text_m74593E81B017446204A9DB1F7359922A2C005B1E_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TouchScreenKeyboard_get_text_m74593E81B017446204A9DB1F7359922A2C005B1E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TouchScreenKeyboard::get_text()");
-	String_t* icallRetVal = _il2cpp_icall_func(__this);
-	return icallRetVal;
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchScreenKeyboard_set_text_m0A8AA05F4D9D27E8764955F0041452145B6C6FBB (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* __this, String_t* ___0_value, const RuntimeMethod* method) 
-{
-	typedef void (*TouchScreenKeyboard_set_text_m0A8AA05F4D9D27E8764955F0041452145B6C6FBB_ftn) (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A*, String_t*);
-	static TouchScreenKeyboard_set_text_m0A8AA05F4D9D27E8764955F0041452145B6C6FBB_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TouchScreenKeyboard_set_text_m0A8AA05F4D9D27E8764955F0041452145B6C6FBB_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TouchScreenKeyboard::set_text(System.String)");
-	_il2cpp_icall_func(__this, ___0_value);
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchScreenKeyboard_set_hideInput_m8FDDB21FB7E9B06B791649BBE369E4EA0F5F5299 (bool ___0_value, const RuntimeMethod* method) 
-{
-	typedef void (*TouchScreenKeyboard_set_hideInput_m8FDDB21FB7E9B06B791649BBE369E4EA0F5F5299_ftn) (bool);
-	static TouchScreenKeyboard_set_hideInput_m8FDDB21FB7E9B06B791649BBE369E4EA0F5F5299_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TouchScreenKeyboard_set_hideInput_m8FDDB21FB7E9B06B791649BBE369E4EA0F5F5299_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TouchScreenKeyboard::set_hideInput(System.Boolean)");
-	_il2cpp_icall_func(___0_value);
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TouchScreenKeyboard_get_active_mB22402FB9E56D3F652DA785F01E504A530FF8775 (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* __this, const RuntimeMethod* method) 
-{
-	typedef bool (*TouchScreenKeyboard_get_active_mB22402FB9E56D3F652DA785F01E504A530FF8775_ftn) (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A*);
-	static TouchScreenKeyboard_get_active_mB22402FB9E56D3F652DA785F01E504A530FF8775_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TouchScreenKeyboard_get_active_mB22402FB9E56D3F652DA785F01E504A530FF8775_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TouchScreenKeyboard::get_active()");
-	bool icallRetVal = _il2cpp_icall_func(__this);
-	return icallRetVal;
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchScreenKeyboard_set_active_m4382D57F87E4C86B59864E86BE93A8A2A474B7C2 (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* __this, bool ___0_value, const RuntimeMethod* method) 
-{
-	typedef void (*TouchScreenKeyboard_set_active_m4382D57F87E4C86B59864E86BE93A8A2A474B7C2_ftn) (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A*, bool);
-	static TouchScreenKeyboard_set_active_m4382D57F87E4C86B59864E86BE93A8A2A474B7C2_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TouchScreenKeyboard_set_active_m4382D57F87E4C86B59864E86BE93A8A2A474B7C2_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TouchScreenKeyboard::set_active(System.Boolean)");
-	_il2cpp_icall_func(__this, ___0_value);
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TouchScreenKeyboard_get_status_mCC466FDEC7E1913D8585ABA7F048FC198CB19504 (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* __this, const RuntimeMethod* method) 
-{
-	typedef int32_t (*TouchScreenKeyboard_get_status_mCC466FDEC7E1913D8585ABA7F048FC198CB19504_ftn) (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A*);
-	static TouchScreenKeyboard_get_status_mCC466FDEC7E1913D8585ABA7F048FC198CB19504_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TouchScreenKeyboard_get_status_mCC466FDEC7E1913D8585ABA7F048FC198CB19504_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TouchScreenKeyboard::get_status()");
-	int32_t icallRetVal = _il2cpp_icall_func(__this);
-	return icallRetVal;
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchScreenKeyboard_set_characterLimit_mCD8F3BC047EF2515272A689368CF3678A419B854 (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* __this, int32_t ___0_value, const RuntimeMethod* method) 
-{
-	typedef void (*TouchScreenKeyboard_set_characterLimit_mCD8F3BC047EF2515272A689368CF3678A419B854_ftn) (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A*, int32_t);
-	static TouchScreenKeyboard_set_characterLimit_mCD8F3BC047EF2515272A689368CF3678A419B854_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TouchScreenKeyboard_set_characterLimit_mCD8F3BC047EF2515272A689368CF3678A419B854_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TouchScreenKeyboard::set_characterLimit(System.Int32)");
-	_il2cpp_icall_func(__this, ___0_value);
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TouchScreenKeyboard_get_canGetSelection_m340ACEFDB9609DEED4FE7D451A4DCCC1024F767A (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* __this, const RuntimeMethod* method) 
-{
-	typedef bool (*TouchScreenKeyboard_get_canGetSelection_m340ACEFDB9609DEED4FE7D451A4DCCC1024F767A_ftn) (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A*);
-	static TouchScreenKeyboard_get_canGetSelection_m340ACEFDB9609DEED4FE7D451A4DCCC1024F767A_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TouchScreenKeyboard_get_canGetSelection_m340ACEFDB9609DEED4FE7D451A4DCCC1024F767A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TouchScreenKeyboard::get_canGetSelection()");
-	bool icallRetVal = _il2cpp_icall_func(__this);
-	return icallRetVal;
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TouchScreenKeyboard_get_canSetSelection_m6CD6C069A9FEF91CC8014B877EB057ECF598EDF9 (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* __this, const RuntimeMethod* method) 
-{
-	typedef bool (*TouchScreenKeyboard_get_canSetSelection_m6CD6C069A9FEF91CC8014B877EB057ECF598EDF9_ftn) (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A*);
-	static TouchScreenKeyboard_get_canSetSelection_m6CD6C069A9FEF91CC8014B877EB057ECF598EDF9_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TouchScreenKeyboard_get_canSetSelection_m6CD6C069A9FEF91CC8014B877EB057ECF598EDF9_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TouchScreenKeyboard::get_canSetSelection()");
-	bool icallRetVal = _il2cpp_icall_func(__this);
-	return icallRetVal;
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RangeInt_tDFBE4FD13857C11F21F7C3DA6B60D05341B67268 TouchScreenKeyboard_get_selection_m1D44C9A8D4EA91F61706F048ED318E537DC46AB2 (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* __this, const RuntimeMethod* method) 
-{
-	RangeInt_tDFBE4FD13857C11F21F7C3DA6B60D05341B67268 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	RangeInt_tDFBE4FD13857C11F21F7C3DA6B60D05341B67268 V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	{
-		int32_t* L_0 = (&(&V_0)->___start_0);
-		int32_t* L_1 = (&(&V_0)->___length_1);
-		TouchScreenKeyboard_GetSelection_mFE603E50B5D189F96A3E3D93FA5F70E7B2DA9C5A(L_0, L_1, NULL);
-		RangeInt_tDFBE4FD13857C11F21F7C3DA6B60D05341B67268 L_2 = V_0;
-		V_1 = L_2;
-		goto IL_0019;
-	}
-
-IL_0019:
-	{
-		RangeInt_tDFBE4FD13857C11F21F7C3DA6B60D05341B67268 L_3 = V_1;
-		return L_3;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchScreenKeyboard_set_selection_mC27C2948118086822A151118C379FAAF692DB2DF (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* __this, RangeInt_tDFBE4FD13857C11F21F7C3DA6B60D05341B67268 ___0_value, const RuntimeMethod* method) 
-{
-	bool V_0 = false;
-	int32_t G_B4_0 = 0;
-	{
-		RangeInt_tDFBE4FD13857C11F21F7C3DA6B60D05341B67268 L_0 = ___0_value;
-		int32_t L_1 = L_0.___start_0;
-		if ((((int32_t)L_1) < ((int32_t)0)))
-		{
-			goto IL_002f;
-		}
-	}
-	{
-		RangeInt_tDFBE4FD13857C11F21F7C3DA6B60D05341B67268 L_2 = ___0_value;
-		int32_t L_3 = L_2.___length_1;
-		if ((((int32_t)L_3) < ((int32_t)0)))
-		{
-			goto IL_002f;
-		}
-	}
-	{
-		RangeInt_tDFBE4FD13857C11F21F7C3DA6B60D05341B67268 L_4 = ___0_value;
-		int32_t L_5 = L_4.___start_0;
-		RangeInt_tDFBE4FD13857C11F21F7C3DA6B60D05341B67268 L_6 = ___0_value;
-		int32_t L_7 = L_6.___length_1;
-		String_t* L_8;
-		L_8 = TouchScreenKeyboard_get_text_m74593E81B017446204A9DB1F7359922A2C005B1E(__this, NULL);
-		NullCheck(L_8);
-		int32_t L_9;
-		L_9 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_8, NULL);
-		G_B4_0 = ((((int32_t)((int32_t)il2cpp_codegen_add(L_5, L_7))) > ((int32_t)L_9))? 1 : 0);
-		goto IL_0030;
-	}
-
-IL_002f:
-	{
-		G_B4_0 = 1;
-	}
-
-IL_0030:
-	{
-		V_0 = (bool)G_B4_0;
-		bool L_10 = V_0;
-		if (!L_10)
-		{
-			goto IL_0044;
-		}
-	}
-	{
-		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_11 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
-		ArgumentOutOfRangeException__ctor_mE5B2755F0BEA043CACF915D5CE140859EE58FA66(L_11, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral4FEEB8D75A2FD285E0FC86F7E4104FA3A7AA777D)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral55AA1B195D5120564E8695CBFB7EA94B52F7EC06)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TouchScreenKeyboard_set_selection_mC27C2948118086822A151118C379FAAF692DB2DF_RuntimeMethod_var)));
-	}
-
-IL_0044:
-	{
-		RangeInt_tDFBE4FD13857C11F21F7C3DA6B60D05341B67268 L_12 = ___0_value;
-		int32_t L_13 = L_12.___start_0;
-		RangeInt_tDFBE4FD13857C11F21F7C3DA6B60D05341B67268 L_14 = ___0_value;
-		int32_t L_15 = L_14.___length_1;
-		TouchScreenKeyboard_SetSelection_m589290680988DFA5FBABA7336F58907C62D182DA(L_13, L_15, NULL);
-		return;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchScreenKeyboard_GetSelection_mFE603E50B5D189F96A3E3D93FA5F70E7B2DA9C5A (int32_t* ___0_start, int32_t* ___1_length, const RuntimeMethod* method) 
-{
-	typedef void (*TouchScreenKeyboard_GetSelection_mFE603E50B5D189F96A3E3D93FA5F70E7B2DA9C5A_ftn) (int32_t*, int32_t*);
-	static TouchScreenKeyboard_GetSelection_mFE603E50B5D189F96A3E3D93FA5F70E7B2DA9C5A_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TouchScreenKeyboard_GetSelection_mFE603E50B5D189F96A3E3D93FA5F70E7B2DA9C5A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TouchScreenKeyboard::GetSelection(System.Int32&,System.Int32&)");
-	_il2cpp_icall_func(___0_start, ___1_length);
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchScreenKeyboard_SetSelection_m589290680988DFA5FBABA7336F58907C62D182DA (int32_t ___0_start, int32_t ___1_length, const RuntimeMethod* method) 
-{
-	typedef void (*TouchScreenKeyboard_SetSelection_m589290680988DFA5FBABA7336F58907C62D182DA_ftn) (int32_t, int32_t);
-	static TouchScreenKeyboard_SetSelection_m589290680988DFA5FBABA7336F58907C62D182DA_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TouchScreenKeyboard_SetSelection_m589290680988DFA5FBABA7336F58907C62D182DA_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TouchScreenKeyboard::SetSelection(System.Int32,System.Int32)");
-	_il2cpp_icall_func(___0_start, ___1_length);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_inline (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B* __this, uint8_t ___0_r, uint8_t ___1_g, uint8_t ___2_b, uint8_t ___3_a, const RuntimeMethod* method) 
 {
 	{
@@ -31692,17 +31150,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WaitForSecondsRealtime_set_w
 		float L_0 = ___0_value;
 		__this->___U3CwaitTimeU3Ek__BackingField_0 = L_0;
 		return;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TouchScreenKeyboard_get_disableInPlaceEditing_m063C253E629D35E9C1DEC911EA785AA796D35252_inline (const RuntimeMethod* method) 
-{
-	if (!il2cpp_codegen_runtime_metadata_is_initialized((uintptr_t*)TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A_il2cpp_TypeInfo_var))
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A_il2cpp_TypeInfo_var);
-	}
-	{
-		bool L_0 = ((TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A_StaticFields*)il2cpp_codegen_static_fields_for(TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A_il2cpp_TypeInfo_var))->___U3CdisableInPlaceEditingU3Ek__BackingField_1;
-		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Span_1__ctor_m5DB422A4A67DE1D7500438180F794F053A172091_gshared_inline (Span_1_t487E7C1202D35C5F26D71C04B8D5DCA5BA084B4E* __this, GradientColorKeyU5BU5D_tB8929E6EE130CA1F3C1664B300BE83A95A642C18* ___0_array, const RuntimeMethod* method) 

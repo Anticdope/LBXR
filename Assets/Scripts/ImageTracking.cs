@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.XR;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
+using TMPro;
 
 public class ImageTracking : MonoBehaviour
 {
@@ -13,7 +14,9 @@ public class ImageTracking : MonoBehaviour
 
     // Declared array of prefabs
     public GameObject[] ArPrefabs;
-
+    // Text game object
+    public TMP_Text Text;
+    // Dictionary of instantiated prefabs
     private readonly Dictionary<string, GameObject> _instantiatePrefabs = new Dictionary<string, GameObject>();
 
     // When is this called?
@@ -44,6 +47,7 @@ public class ImageTracking : MonoBehaviour
             // Instantiate a prefab when a new image is detected
             if (_instantiatePrefabs.ContainsKey(newImage.referenceImage.name))
             {
+                Text.text = "Tracking";
                 var prefab = _instantiatePrefabs[newImage.referenceImage.name];
                 prefab.SetActive(true);
                 prefab.transform.position = newImage.transform.position;
@@ -56,6 +60,7 @@ public class ImageTracking : MonoBehaviour
             // Update the prefab position and rotation when an existing image is updated
             if (_instantiatePrefabs.ContainsKey(updatedImage.referenceImage.name))
             {
+                Text.text = "Still Tracking";
                 var prefab = _instantiatePrefabs[updatedImage.referenceImage.name];
                 prefab.SetActive(updatedImage.trackingState == TrackingState.Tracking);
                 prefab.transform.position = updatedImage.transform.position;
@@ -68,6 +73,7 @@ public class ImageTracking : MonoBehaviour
             // Disable the prefab when an image is removed
             if (_instantiatePrefabs.ContainsKey(removedImage.referenceImage.name))
             {
+                Text.text = "Not Tracking";
                 var prefab = _instantiatePrefabs[removedImage.referenceImage.name];
                 prefab.SetActive(false);
             }
