@@ -588,8 +588,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_set_materialCount_Injecte
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_set_popMaterialCount_Injected_mC8CAAAD9469D9271EDB1713D908A09A5A5801F7C (intptr_t ___0__unity_self, int32_t ___1_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CanvasRenderer_get_absoluteDepth_Injected_m194C5BAE11AE2F0B95808BF6F3D91DFB96DC9073 (intptr_t ___0__unity_self, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasRenderer_get_hasMoved_Injected_m9A29E286C7A0198C6C592425CFC668F7CEE38F35 (intptr_t ___0__unity_self, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasRenderer_get_cullTransparentMesh_Injected_m8B2CB0F5A4BA6FA08FD6DB0364CC59FED848B2CF (intptr_t ___0__unity_self, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_set_cullTransparentMesh_Injected_mBDA76BBD6526A217921A365DFC69477DCD1AFEBC (intptr_t ___0__unity_self, bool ___1_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasRenderer_get_cull_Injected_mCB584F0C2AD8079DA0345A004B5D897970B5F412 (intptr_t ___0__unity_self, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_set_cull_Injected_mED3A8637C8032D9D579EDF920BA509A64B45165F (intptr_t ___0__unity_self, bool ___1_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SetColor_Injected_mBF6E7EC764BD0752DCD1255A78A65C08B55A5448 (intptr_t ___0__unity_self, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* ___1_color, const RuntimeMethod* method) ;
@@ -599,7 +597,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_set_clippingSoftness_Inje
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_DisableRectClipping_Injected_m7C1B57EFD8CCB01177190DF1E46A7A61DF7A9433 (intptr_t ___0__unity_self, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t MarshalledUnityObject_Marshal_m37053FBE71A286C52E64736A0BB42DCF54FA86D9_inline (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SetMaterial_Injected_m1B28E9D99ADFE0A93D77668C2CFD3DA5FF80B45B (intptr_t ___0__unity_self, intptr_t ___1_material, int32_t ___2_index, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* CanvasRenderer_GetMaterial_Injected_mED1D31AC9F19CDC5F03A93571B9DACEE38B519EF (intptr_t ___0__unity_self, int32_t ___1_index, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SetPopMaterial_Injected_m74FF92F034816D38776C6D253D173F8C40B5D827 (intptr_t ___0__unity_self, intptr_t ___1_material, int32_t ___2_index, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SetTexture_Injected_mA36270047FFE4CA875C3C7A89CC4CD0E2BFC9AE0 (intptr_t ___0__unity_self, intptr_t ___1_texture, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SetAlphaTexture_Injected_m65D98FE1D0DE8FEA97B90E34C1C8B45A27B394B7 (intptr_t ___0__unity_self, intptr_t ___1_texture, const RuntimeMethod* method) ;
@@ -610,7 +607,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Math_Max_m530EBA549AFD98CFC2BD29FE86C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_set_materialCount_m333926C78CD98557B86A8EAC66F47BD4DD4554C3 (CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SetMaterial_mBB733E272FB6A5B30C3B24F557AF5ED9EAC5DBD7 (CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* __this, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, int32_t ___1_index, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SetTexture_m8A670DA4B435058550D64A1B16CAB8E421F45AAC (CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* __this, Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___0_texture, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* CanvasRenderer_GetMaterial_mDA3246B02DDDE378C3E6DED6263F6D989B0982A9 (CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* __this, int32_t ___0_index, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SplitUIVertexStreamsInternal_mE0E7EF4A1B611F30DA5D236F81985154A2D2E50A (RuntimeObject* ___0_verts, RuntimeObject* ___1_positions, RuntimeObject* ___2_colors, RuntimeObject* ___3_uv0S, RuntimeObject* ___4_uv1S, RuntimeObject* ___5_uv2S, RuntimeObject* ___6_uv3S, RuntimeObject* ___7_normals, RuntimeObject* ___8_tangents, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SplitIndicesStreamsInternal_m1CAD8F8DFEBFE03778B72F1AD290CADBAFA63848 (RuntimeObject* ___0_verts, RuntimeObject* ___1_indices, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_CreateUIVertexStreamInternal_mDCD7E8138A464984EA7F4CE942BA4C0E034B7296 (RuntimeObject* ___0_verts, RuntimeObject* ___1_positions, RuntimeObject* ___2_colors, RuntimeObject* ___3_uv0S, RuntimeObject* ___4_uv1S, RuntimeObject* ___5_uv2S, RuntimeObject* ___6_uv3S, RuntimeObject* ___7_normals, RuntimeObject* ___8_tangents, RuntimeObject* ___9_indices, const RuntimeMethod* method) ;
@@ -681,12 +677,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_set_sortingOrder_Injected_m1CF44B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Canvas_get_targetDisplay_Injected_m38E3655D55E4EE8C80282461CFD89937DF1E054F (intptr_t ___0__unity_self, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Canvas_get_sortingLayerID_Injected_m13994CAF9A9F1FB3F5122389666975B0F3963F2A (intptr_t ___0__unity_self, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_set_sortingLayerID_Injected_mA0C8C8BE2A7BE4ED422A88CD6D056B56EDE87A07 (intptr_t ___0__unity_self, int32_t ___1_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Canvas_get_additionalShaderChannels_Injected_m9C0C62C72E90B15DF1C4BDC479D57C1D9A24CBD4 (intptr_t ___0__unity_self, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_set_additionalShaderChannels_Injected_mD2C61B16032A292B5EF94E3DDAC0CEAE27E2B2EE (intptr_t ___0__unity_self, int32_t ___1_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* Canvas_get_rootCanvas_Injected_mCCE8171F97359DE5DA10CA152CF0FF284C39580A (intptr_t ___0__unity_self, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_get_renderingDisplaySize_Injected_mB2EBF5D42D74DAF756662C294038800DB638287F (intptr_t ___0__unity_self, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___1_ret, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* Canvas_get_worldCamera_Injected_m1334ACC58F35EE4EF2CD9B40E1062284407D1ED2 (intptr_t ___0__unity_self, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_set_worldCamera_Injected_m95271C7189974C4C764A9C5F28F030071E90E313 (intptr_t ___0__unity_self, intptr_t ___1_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_SendPreWillRenderCanvases_mE397C15067BBE1B0C65D7A6FE94046B9AF375DD9 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_SendWillRenderCanvases_m2DA2A7A53FCE4B746A17CD5F0FCE6B21B1B46779 (const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WillRenderCanvases_Invoke_m47BAAC9AD2F84BF75E0021F436A6286C09A30566_inline (WillRenderCanvases_tA4A6E66DBA797DCB45B995DBA449A9D1D80D0FBC* __this, const RuntimeMethod* method) ;
@@ -906,26 +899,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasRenderer_get_hasMoved_mB87D3AF4E79
 		return L_1;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasRenderer_get_cullTransparentMesh_m116BB768D49AC0068E6861A8F7F1A52A0DC5DC7C (CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* __this, const RuntimeMethod* method) 
-{
-	{
-		intptr_t L_0;
-		L_0 = MarshalledUnityObject_MarshalNullCheck_m3C67BABD09EAD96B151C9D4103881D7628F2E609_inline(__this, NULL);
-		bool L_1;
-		L_1 = CanvasRenderer_get_cullTransparentMesh_Injected_m8B2CB0F5A4BA6FA08FD6DB0364CC59FED848B2CF(L_0, NULL);
-		return L_1;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_set_cullTransparentMesh_m72093B655EFCCF35FE50C60258F0B1440BFD04BE (CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* __this, bool ___0_value, const RuntimeMethod* method) 
-{
-	{
-		intptr_t L_0;
-		L_0 = MarshalledUnityObject_MarshalNullCheck_m3C67BABD09EAD96B151C9D4103881D7628F2E609_inline(__this, NULL);
-		bool L_1 = ___0_value;
-		CanvasRenderer_set_cullTransparentMesh_Injected_mBDA76BBD6526A217921A365DFC69477DCD1AFEBC(L_0, L_1, NULL);
-		return;
-	}
-}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasRenderer_get_cull_m48007D7CB40B3C0EC29F0CB316AFAC88748EF3D7 (CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1007,17 +980,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SetMaterial_mBB733E272FB6
 		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* CanvasRenderer_GetMaterial_mDA3246B02DDDE378C3E6DED6263F6D989B0982A9 (CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* __this, int32_t ___0_index, const RuntimeMethod* method) 
-{
-	{
-		intptr_t L_0;
-		L_0 = MarshalledUnityObject_MarshalNullCheck_m3C67BABD09EAD96B151C9D4103881D7628F2E609_inline(__this, NULL);
-		int32_t L_1 = ___0_index;
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2;
-		L_2 = CanvasRenderer_GetMaterial_Injected_mED1D31AC9F19CDC5F03A93571B9DACEE38B519EF(L_0, L_1, NULL);
-		return L_2;
-	}
-}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SetPopMaterial_m9CE3CD36F79C60B5BBB4A67D6A422756F2E3EF75 (CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* __this, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	{
@@ -1094,22 +1056,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SetMaterial_m445BACF01EF1
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_3 = ___1_texture;
 		CanvasRenderer_SetTexture_m8A670DA4B435058550D64A1B16CAB8E421F45AAC(__this, L_3, NULL);
 		return;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* CanvasRenderer_GetMaterial_m42376FD7C07D8E1700FC3627D1DCF1AECCC47A1C (CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* __this, const RuntimeMethod* method) 
-{
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* V_0 = NULL;
-	{
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0;
-		L_0 = CanvasRenderer_GetMaterial_mDA3246B02DDDE378C3E6DED6263F6D989B0982A9(__this, 0, NULL);
-		V_0 = L_0;
-		goto IL_000b;
-	}
-
-IL_000b:
-	{
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1 = V_0;
-		return L_1;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SplitUIVertexStreams_m6B0D82A693A3DA8E08C15BD06484A3AA2A371198 (List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* ___0_verts, List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* ___1_positions, List_1_t3517D52AE25CA3B19051E691E9C06ED03A3AB9B8* ___2_colors, List_1_tF42FEB6C3B18B7E7C8F2DE1FEBA00D2491736317* ___3_uv0S, List_1_tF42FEB6C3B18B7E7C8F2DE1FEBA00D2491736317* ___4_uv1S, List_1_tF42FEB6C3B18B7E7C8F2DE1FEBA00D2491736317* ___5_uv2S, List_1_tF42FEB6C3B18B7E7C8F2DE1FEBA00D2491736317* ___6_uv3S, List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* ___7_normals, List_1_tF42FEB6C3B18B7E7C8F2DE1FEBA00D2491736317* ___8_tangents, List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___9_indices, const RuntimeMethod* method) 
@@ -1239,23 +1185,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasRenderer_get_hasMoved_Injected_m9A
 	bool icallRetVal = _il2cpp_icall_func(___0__unity_self);
 	return icallRetVal;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasRenderer_get_cullTransparentMesh_Injected_m8B2CB0F5A4BA6FA08FD6DB0364CC59FED848B2CF (intptr_t ___0__unity_self, const RuntimeMethod* method) 
-{
-	typedef bool (*CanvasRenderer_get_cullTransparentMesh_Injected_m8B2CB0F5A4BA6FA08FD6DB0364CC59FED848B2CF_ftn) (intptr_t);
-	static CanvasRenderer_get_cullTransparentMesh_Injected_m8B2CB0F5A4BA6FA08FD6DB0364CC59FED848B2CF_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (CanvasRenderer_get_cullTransparentMesh_Injected_m8B2CB0F5A4BA6FA08FD6DB0364CC59FED848B2CF_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CanvasRenderer::get_cullTransparentMesh_Injected(System.IntPtr)");
-	bool icallRetVal = _il2cpp_icall_func(___0__unity_self);
-	return icallRetVal;
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_set_cullTransparentMesh_Injected_mBDA76BBD6526A217921A365DFC69477DCD1AFEBC (intptr_t ___0__unity_self, bool ___1_value, const RuntimeMethod* method) 
-{
-	typedef void (*CanvasRenderer_set_cullTransparentMesh_Injected_mBDA76BBD6526A217921A365DFC69477DCD1AFEBC_ftn) (intptr_t, bool);
-	static CanvasRenderer_set_cullTransparentMesh_Injected_mBDA76BBD6526A217921A365DFC69477DCD1AFEBC_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (CanvasRenderer_set_cullTransparentMesh_Injected_mBDA76BBD6526A217921A365DFC69477DCD1AFEBC_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CanvasRenderer::set_cullTransparentMesh_Injected(System.IntPtr,System.Boolean)");
-	_il2cpp_icall_func(___0__unity_self, ___1_value);
-}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasRenderer_get_cull_Injected_mCB584F0C2AD8079DA0345A004B5D897970B5F412 (intptr_t ___0__unity_self, const RuntimeMethod* method) 
 {
 	typedef bool (*CanvasRenderer_get_cull_Injected_mCB584F0C2AD8079DA0345A004B5D897970B5F412_ftn) (intptr_t);
@@ -1320,15 +1249,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SetMaterial_Injected_m1B2
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (CanvasRenderer_SetMaterial_Injected_m1B28E9D99ADFE0A93D77668C2CFD3DA5FF80B45B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CanvasRenderer::SetMaterial_Injected(System.IntPtr,System.IntPtr,System.Int32)");
 	_il2cpp_icall_func(___0__unity_self, ___1_material, ___2_index);
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* CanvasRenderer_GetMaterial_Injected_mED1D31AC9F19CDC5F03A93571B9DACEE38B519EF (intptr_t ___0__unity_self, int32_t ___1_index, const RuntimeMethod* method) 
-{
-	typedef Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* (*CanvasRenderer_GetMaterial_Injected_mED1D31AC9F19CDC5F03A93571B9DACEE38B519EF_ftn) (intptr_t, int32_t);
-	static CanvasRenderer_GetMaterial_Injected_mED1D31AC9F19CDC5F03A93571B9DACEE38B519EF_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (CanvasRenderer_GetMaterial_Injected_mED1D31AC9F19CDC5F03A93571B9DACEE38B519EF_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CanvasRenderer::GetMaterial_Injected(System.IntPtr,System.Int32)");
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* icallRetVal = _il2cpp_icall_func(___0__unity_self, ___1_index);
-	return icallRetVal;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SetPopMaterial_Injected_m74FF92F034816D38776C6D253D173F8C40B5D827 (intptr_t ___0__unity_self, intptr_t ___1_material, int32_t ___2_index, const RuntimeMethod* method) 
 {
@@ -2528,26 +2448,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_set_sortingLayerID_m402DC8D59AAF6
 		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Canvas_get_additionalShaderChannels_m3039B1E9ADDCDC514E444A4BB56527FFAC3E6287 (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, const RuntimeMethod* method) 
-{
-	{
-		intptr_t L_0;
-		L_0 = MarshalledUnityObject_MarshalNullCheck_m3C67BABD09EAD96B151C9D4103881D7628F2E609_inline(__this, NULL);
-		int32_t L_1;
-		L_1 = Canvas_get_additionalShaderChannels_Injected_m9C0C62C72E90B15DF1C4BDC479D57C1D9A24CBD4(L_0, NULL);
-		return L_1;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_set_additionalShaderChannels_m182712BE72B72BE41FAFE97F2FD79C2476132DB0 (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, int32_t ___0_value, const RuntimeMethod* method) 
-{
-	{
-		intptr_t L_0;
-		L_0 = MarshalledUnityObject_MarshalNullCheck_m3C67BABD09EAD96B151C9D4103881D7628F2E609_inline(__this, NULL);
-		int32_t L_1 = ___0_value;
-		Canvas_set_additionalShaderChannels_Injected_mD2C61B16032A292B5EF94E3DDAC0CEAE27E2B2EE(L_0, L_1, NULL);
-		return;
-	}
-}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* Canvas_get_rootCanvas_m74DEA02014963B54DF651BE14284BDAFDA61DDFE (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2658,18 +2558,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_1;
 		L_1 = Canvas_get_worldCamera_Injected_m1334ACC58F35EE4EF2CD9B40E1062284407D1ED2(L_0, NULL);
 		return L_1;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_set_worldCamera_m007F7DABDB5A3A6BFB043E3500DA82A4D936EDD4 (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_value, const RuntimeMethod* method) 
-{
-	{
-		intptr_t L_0;
-		L_0 = MarshalledUnityObject_MarshalNullCheck_m3C67BABD09EAD96B151C9D4103881D7628F2E609_inline(__this, NULL);
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_1 = ___0_value;
-		intptr_t L_2;
-		L_2 = MarshalledUnityObject_Marshal_m37053FBE71A286C52E64736A0BB42DCF54FA86D9_inline(L_1, NULL);
-		Canvas_set_worldCamera_Injected_m95271C7189974C4C764A9C5F28F030071E90E313(L_0, L_2, NULL);
-		return;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* Canvas_GetDefaultCanvasMaterial_m7A0E204A9DC6A1390692788E37DBE7D8C6B71CD2 (const RuntimeMethod* method) 
@@ -3011,23 +2899,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_set_sortingLayerID_Injected_mA0C8
 	_il2cpp_icall_func = (Canvas_set_sortingLayerID_Injected_mA0C8C8BE2A7BE4ED422A88CD6D056B56EDE87A07_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Canvas::set_sortingLayerID_Injected(System.IntPtr,System.Int32)");
 	_il2cpp_icall_func(___0__unity_self, ___1_value);
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Canvas_get_additionalShaderChannels_Injected_m9C0C62C72E90B15DF1C4BDC479D57C1D9A24CBD4 (intptr_t ___0__unity_self, const RuntimeMethod* method) 
-{
-	typedef int32_t (*Canvas_get_additionalShaderChannels_Injected_m9C0C62C72E90B15DF1C4BDC479D57C1D9A24CBD4_ftn) (intptr_t);
-	static Canvas_get_additionalShaderChannels_Injected_m9C0C62C72E90B15DF1C4BDC479D57C1D9A24CBD4_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Canvas_get_additionalShaderChannels_Injected_m9C0C62C72E90B15DF1C4BDC479D57C1D9A24CBD4_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Canvas::get_additionalShaderChannels_Injected(System.IntPtr)");
-	int32_t icallRetVal = _il2cpp_icall_func(___0__unity_self);
-	return icallRetVal;
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_set_additionalShaderChannels_Injected_mD2C61B16032A292B5EF94E3DDAC0CEAE27E2B2EE (intptr_t ___0__unity_self, int32_t ___1_value, const RuntimeMethod* method) 
-{
-	typedef void (*Canvas_set_additionalShaderChannels_Injected_mD2C61B16032A292B5EF94E3DDAC0CEAE27E2B2EE_ftn) (intptr_t, int32_t);
-	static Canvas_set_additionalShaderChannels_Injected_mD2C61B16032A292B5EF94E3DDAC0CEAE27E2B2EE_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Canvas_set_additionalShaderChannels_Injected_mD2C61B16032A292B5EF94E3DDAC0CEAE27E2B2EE_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Canvas::set_additionalShaderChannels_Injected(System.IntPtr,UnityEngine.AdditionalCanvasShaderChannels)");
-	_il2cpp_icall_func(___0__unity_self, ___1_value);
-}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* Canvas_get_rootCanvas_Injected_mCCE8171F97359DE5DA10CA152CF0FF284C39580A (intptr_t ___0__unity_self, const RuntimeMethod* method) 
 {
 	typedef Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* (*Canvas_get_rootCanvas_Injected_mCCE8171F97359DE5DA10CA152CF0FF284C39580A_ftn) (intptr_t);
@@ -3053,14 +2924,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E
 	_il2cpp_icall_func = (Canvas_get_worldCamera_Injected_m1334ACC58F35EE4EF2CD9B40E1062284407D1ED2_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Canvas::get_worldCamera_Injected(System.IntPtr)");
 	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* icallRetVal = _il2cpp_icall_func(___0__unity_self);
 	return icallRetVal;
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_set_worldCamera_Injected_m95271C7189974C4C764A9C5F28F030071E90E313 (intptr_t ___0__unity_self, intptr_t ___1_value, const RuntimeMethod* method) 
-{
-	typedef void (*Canvas_set_worldCamera_Injected_m95271C7189974C4C764A9C5F28F030071E90E313_ftn) (intptr_t, intptr_t);
-	static Canvas_set_worldCamera_Injected_m95271C7189974C4C764A9C5F28F030071E90E313_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Canvas_set_worldCamera_Injected_m95271C7189974C4C764A9C5F28F030071E90E313_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Canvas::set_worldCamera_Injected(System.IntPtr,System.IntPtr)");
-	_il2cpp_icall_func(___0__unity_self, ___1_value);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

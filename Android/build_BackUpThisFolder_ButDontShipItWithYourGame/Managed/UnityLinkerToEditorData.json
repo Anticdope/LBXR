@@ -222,25 +222,19 @@
           },
           {
             "name": "Mesh",
-            "scenes": [
-              "Assets/Scenes/Main.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "MeshFilter",
-            "scenes": [
-              "Assets/Scenes/Main.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "MeshRenderer",
-            "scenes": [
-              "Assets/Scenes/Main.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
@@ -300,9 +294,7 @@
           },
           {
             "name": "RectTransform",
-            "scenes": [
-              "Assets/Scenes/Main.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
@@ -432,8 +424,10 @@
           },
           {
             "name": "Transform",
-            "scenes": [],
-            "dependencyType": 1,
+            "scenes": [
+              "Assets/Scenes/Main.unity"
+            ],
+            "dependencyType": 0,
             "icon": null
           },
           {
@@ -678,9 +672,7 @@
         "dependencies": [
           {
             "name": "BoxCollider",
-            "scenes": [
-              "Assets/Scenes/Main.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
@@ -977,14 +969,6 @@
         "dependencies": [
           {
             "name": "Font",
-            "scenes": [
-              "Assets/Scenes/Main.unity"
-            ],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
-            "name": "TextMesh",
             "scenes": [],
             "dependencyType": 0,
             "icon": null
@@ -1026,9 +1010,7 @@
         "dependencies": [
           {
             "name": "Canvas",
-            "scenes": [
-              "Assets/Scenes/Main.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
@@ -1040,9 +1022,7 @@
           },
           {
             "name": "CanvasRenderer",
-            "scenes": [
-              "Assets/Scenes/Main.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
